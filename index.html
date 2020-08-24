@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>COVID-19</title>
+  <link rel="icon" href="favicon.webp">
+  <link rel=" stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Merienda+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg head">
+    <a class="navbar-brand"><img src="images/logo.jpeg" class="logo"></a>
+    <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle-navigation">
+    <i class="fas fa-align-justify"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link " href="#home">HOME</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link " href="#about">AWARENESS</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link " href="#prevention">PREVENTION</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link " href="#reports">REPORTS</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link " href="#contact">CONTACT</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  </div>
+  <div class="home" id="home">
+    <img class="home-img" src="images/home-img.jpg">
+  </div>
+  <div class="about container-fluid" id="about">
+    <h1 class="about-h1 mx-auto ">GENERAL AWARENESS</h1>
+    <div class="row container-fluid">
+      <div class="col-lg-4 col-md-4 symptoms">
+        <h1 class="about-head">SYMPTOMS</h1>
+        <ul class="about-p">
+          <li>Fever</li>
+          <li>Dry cough</li>
+          <li>Tiredness</li>
+          <li>Trouble breathing</li>
+          <li>Sore throat</li>
+        </ul>
+      </div>
+      <div class="col-lg-4 col-md-4 spread">
+        <h1 class="about-head">SPREAD</h1>
+        <p class="about-p">
+          The virus spreads mainly through respiratory<br>
+           droplets of an infected person
+        </p>
+      </div>
+      <div class="col-lg-4 col-md-4 treatment">
+        <h1 class="about-head">TREATMENT</h1>
+        <p class="about-p">People who get a mild disease need<br>
+           care to ease their symptoms</p>
+      </div>
+    </div>
+    <hr>
+  </div>
+
+  <div class="prevention container-fluid" id="prevention">
+    <h1 class="prev-h1 mx-auto">PREVENTIVE MEASURES</h1>
+    <div class="row">
+      <div class="hands col-lg-4 col-md-4">
+        <p class="prev-p">Wash your hands often with soap <br>and water or clean them with<br> an alcohol-based sanitizer</p>
+        <img class="prev-img" src="images/wash.jpg" >
+      </div>
+      <div class=" mask col-lg-4 col-md-4">
+        <p class="prev-p">Cover your nose <br>and mouth in public</p>
+        <img class="prev-img" src="images/mask.jfif">
+      </div>
+      <div class="social col-lg-4 col-md-4">
+        <p class="prev-p">Practice social <br >distancing</p>
+        <img class="prev-img" src="images/social.png">
+      </div>
+    </div>
+  </div>
+  <div class="reports" id="reports">
+    <h1 class="mx-auto reports-h1">REPORTS</h1>
+<div id="chartdiv"></div>
+  </div>
+  <div class="contact container-fluid" id="contact">
+      <h1 class="mx-auto contact-h1">CONTACT</h1>
+    <button type="button" name="button" class="btn btn-dark mx-auto">
+    <a class="phn" href="tel:+91-11-23978046">  EMERGENCY  </a><i class="fas fa-phone"></i>
+  </button>
+
+    <p class="copy">&copy M-3-6 2020</p>
+  </div>
+  <!-- Resources -->
+  <script src="https://cdn.amcharts.com/lib/4/core.js"></script>
+  <script src="https://cdn.amcharts.com/lib/4/charts.js"></script>
+  <script src="https://cdn.amcharts.com/lib/4/maps.js"></script>
+  <script src="https://cdn.amcharts.com/lib/4/geodata/worldLow.js"></script>
+  <script src="https://covid.amCharts.com/data/js/world_timeline.js"></script>
+  <script src="https://covid.amCharts.com/data/js/total_timeline.js"></script>
+   <script src="app.js" charset="utf-8"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script src="app.js" charset="utf-8"></script>
+</body>
+
+</html>
